@@ -45,13 +45,13 @@ Here is the recommended folder structure for this project:
 ```
 image_processing_project/
 ├── data/
-│   ├── input_images/        # Folder for raw input images (e.g., 'your_image.png')
-│   └── output_images/       # Folder for processed images (e.g., 'segmented_image.png')
+│   ├── input_images/        
+│   └── output_images/       
 ├── src/
-│   └── region_growing_segmentation.py  # Python script for region-growing segmentation
-│   └── gaussian_noise_otsu_thresholding.py  # Python script for noise and Otsu's method
-├── requirements.txt         # List of Python dependencies
-└── README.md                # Project documentation
+│   └── region_growing_segmentation.py  
+│   └── gaussian_noise_otsu_thresholding.py  
+├── requirements.txt         
+└── README.md                
 ```
 
 ## How to Run
